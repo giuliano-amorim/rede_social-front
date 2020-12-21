@@ -18,7 +18,7 @@ export const getPostAll = () => {
 export const createPost = (form) => {
   return async (dispatch) => {
     const post = {
-      // author: "Liniker Silva",
+      // author: "Giuliano",
       title: form.title,
       // description: form.description,
       // created_at: "Sunday, March 8, 2020 11:33 PM",

@@ -39,7 +39,7 @@ const PanelAdmin = () => {
   return (
     <LayoutBase breadcrumb={BreadCrumb} title="Minha Rede" actions={Actions}>
       <Info>
-        <FaUserAlt /> Bem vindo, <strong> Liniker Silva</strong>
+        <FaUserAlt /> Bem vindo, <strong> Giuliano Amorim</strong>
         <br />
         <Button size="medium" onClick={() => changeViewPanel(0)}>
           <MdDashboard /> DashBoard
