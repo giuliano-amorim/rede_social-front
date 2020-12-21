@@ -1,7 +1,7 @@
 {
   "name": "rede-social-dupla",
   "engines": {
-    "node": "^15.4.0"
+    "node": "^12.x"
   },
   "version": "0.1.0",
   "private": true,
