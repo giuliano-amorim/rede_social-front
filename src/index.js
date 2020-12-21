@@ -1,23 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import { Provider } from 'react-redux';
-
-import App from './App';
-import store from './store';
-import { SettingsProvider } from './context/SettingsContext';
-import { getSettings } from './utils/settings';
-
-const settings = getSettings();
+import React from "react";
+import ReactDOM from "react-dom";
+import Router from "./router";
+import "antd/dist/antd.css"; // ant design stylesheet
+import "./assets/scss/style.scss";
+import GlobalStyle from "./assets/globalStyle";
+import { Provider } from "react-redux";
+import store from "./store";
+import ToastrComponent from "./config/toastr";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <CssBaseline />
-    <Provider store={store}>
-      <SettingsProvider settings={settings}>
-        <App />
-      </SettingsProvider>
-    </Provider>
-  </React.StrictMode>,
-  document.getElementById('root'),
+  <Provider store={store}>
+    <GlobalStyle />
+    <Router />
+    <ToastrComponent />
+  </Provider>,
+  document.getElementById("root")
 );
