@@ -9,8 +9,8 @@ const { Content } = Layout;
 const SignIn = () => {
   const dispatch = useDispatch();
   const [form, setForm] = useState({
-    password: "a12345678c",
-    email: "thais.viana@prof.infnet.com.br",
+    password: "administrador",
+    email: "giuliano@gmail.com",
   });
 
   const handleChange = (props) => {

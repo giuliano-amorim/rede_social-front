@@ -38,8 +38,8 @@ const Profile = () => {
         <div className="avatar">
           <img src={AvatarNeutro} alt="" />
         </div>
-        <div className="title">Liniker Silva</div>
-        <div className="subTitle">Software Engineer</div>
+        <div className="title">Giuliano Amorim</div>
+        <div className="subTitle">Aluno Bootcamp</div>
 
         <div className="socialMedia">{SocialMedia}</div>
       </SliceTop>

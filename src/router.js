@@ -16,7 +16,7 @@ import { getProfile } from "./store/User/user.action";
 // import { useSelector } from "react-redux";
 
 const AdminRoute = ({ ...rest }) => {
-  if (!isAuthenticated()) {
+  if (isAuthenticated()) {
     return <Redirect to="/signin" />;
   }
   return <Route {...rest} />;

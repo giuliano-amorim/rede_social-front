@@ -32,7 +32,7 @@ const LayoutBase = ({ children, breadcrumb, actions, title = "" }) => {
     <Layout className="layout">
       <HeaderStyled>
         <Logo>
-          <FaLaptopCode /> Dev Connector{" "}
+          <FaLaptopCode /> {" "}
         </Logo>
         <MenuStyled
           theme="dark"
@@ -69,7 +69,7 @@ const LayoutBase = ({ children, breadcrumb, actions, title = "" }) => {
         </div>
       </ContentStyled>
       <Footer style={{ textAlign: "center" }}>
-        Todos os Direitos Reservados Dev Connector | 2020
+        Todos os Direitos Reservados  | 2020
       </Footer>
     </Layout>
   );

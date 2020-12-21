@@ -14,7 +14,7 @@ const dataSource = [
     },
     {
         key: '3',
-        name: 'Liniker',
+        name: 'Giuliano',
         age: 15,
         address: 'em qualquer lugar do mundo',
     },
