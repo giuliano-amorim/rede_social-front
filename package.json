@@ -1,5 +1,8 @@
 {
-  "name": "dev_connect",
+  "name": "rede-social-dupla",
+  "engines": {
+    "node": "15.4.0"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
